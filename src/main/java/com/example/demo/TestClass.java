@@ -11,7 +11,7 @@ public class TestClass {
 	BuildProperties buildProperties;
 	
 	public TestClass() {
-		System.out.println(buildProperties.getVersion());
+		System.out.println(buildProperties);
 	}
 	
 }
