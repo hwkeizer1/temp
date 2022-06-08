@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>temp</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.1</version>
 	<name>temp</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -38,7 +38,7 @@
 	  <connection>scm:git:ssh://git@github.com/hwkeizer1/temp.git</connection>
 	  <developerConnection>scm:git:ssh://git@github.com/hwkeizer1/temp.git</developerConnection>
 	  <url>https://github.com/hwkeizer1/temp/tree/master</url>
-	  <tag>HEAD</tag>
+	  <tag>temp-1.0.1</tag>
   </scm>
 
   
