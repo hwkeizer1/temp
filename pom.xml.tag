@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>temp</artifactId>
-	<version>1.0.4-SNAPSHOT</version>
+	<version>1.0.4</version>
 	<name>temp</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -38,8 +38,8 @@
 	  <connection>scm:git:ssh://git@github.com/hwkeizer1/temp.git</connection>
 	  <developerConnection>scm:git:ssh://git@github.com/hwkeizer1/temp.git</developerConnection>
 	  <url>https://github.com/hwkeizer1/temp/tree/master</url>
-	  <tag>HEAD</tag>
-  	</scm>
+	  <tag>temp-1.0.4</tag>
+  </scm>
 
   
 	<build>
@@ -47,14 +47,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			    <executions>
-			        <execution>
-			            <id>build-info</id>
-			            <goals>
-			                <goal>build-info</goal>
-			            </goals>
-			        </execution>
-			    </executions>
 			</plugin>
 			<plugin>
 		    	<groupId>org.apache.maven.plugins</groupId>
