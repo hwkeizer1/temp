@@ -8,7 +8,6 @@ public class TempApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TempApplication.class, args);
-		
 	}
 
 }
